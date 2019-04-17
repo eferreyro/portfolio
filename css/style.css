@@ -5,16 +5,30 @@ body, html{
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
-  color:#666;
+  color:#657;
 }
 
 .pimg1, .pimg2, .pimg3{
+  
   position:relative;
   opacity:0.70;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
+}
+
+p.webdev{
+  margin: 0;
+  color:black; 
+  text-align: center;
+  line-height: 70vh;
+  
+}
+p.whoiam{
+  color: rgb(211, 235, 240);
+  text-align: center;
+  
 }
 #navbar {
   overflow: hidden;
@@ -89,7 +103,7 @@ body, html{
 .ptext{
   display: flex;
   position:absolute;
-  top:50%;
+  top:40%;
   width:100%;
   align-items: center;
   text-align: center;
